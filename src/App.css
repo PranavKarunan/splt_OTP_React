@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  margin: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input_field {
+  display: flex;
+  gap: 1rem;
+}
+
+.input_field input {
+  width: 2.5rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  border: 2px solid #ccc;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+button:enabled{
+  width: 5rem;
+  height: 3rem;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+button:disabled {
+  width: 5rem;
+  height: 3rem;
+}
